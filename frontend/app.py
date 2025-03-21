@@ -68,7 +68,7 @@ if st.button("🎙️ Record Voice"):
             # Send to Backend
             with open(audio_path, "rb") as audio_file:
                 response = requests.post(
-                    "http://127.0.0.1:8000/process-audio/",
+                    "http://127.0.0.1:8001/process-audio/",
                     files={"file": audio_file}
                 )
             
