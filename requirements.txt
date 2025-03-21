@@ -1,0 +1,12 @@
+streamlit
+pymongo
+python-dotenv
+fastapi
+uvicorn
+SpeechRecognition
+pyaudio
+pydub
+python-multipart
+requests
+numpy
+pocketsphinx 
